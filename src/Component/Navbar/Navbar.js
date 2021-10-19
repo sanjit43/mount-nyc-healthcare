@@ -19,7 +19,7 @@ const Navbar = () => {
                 {user.email && <p className='user-title'>Welcome: {user.email}</p>}
             </div>
             <div className='sign-in'>
-                {user.email ? <input onClick={logOut} type="button" value="LogOut" /> : <Link to='/login'>Login</Link>}
+                {user.email ? <input onClick={logOut} type="button" value="LogOut" /> : <Link to='/signin'>Login</Link>}
                 <Link to='/register'><input className='sign-out' type="button" value="Register" /></Link>
 
             </div>
