@@ -1,0 +1,48 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    padding: 20px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    color: lightsalmon;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav-container a:hover{
+    background-color: green;
+}
+
+
+.user-title{
+    text-align: center;
+}
+
+.sign-out{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 688px){
+    .nav-container a{
+        font-size: 10px;
+        margin: 5px;
+        padding: 0;
+    }
+    .nav-container img{
+        padding-left: 10px;
+        width: 50px;
+    }
+    .nav-container input{
+        margin: 5px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Audiology",
+    "title": "Hearing Better",
+    "description": "We’re dedicated to helping alleviate your concerns and finding the best solution for your individual needs. You can trust our professional and caring staff to treat you with the highest quality service, understanding, and efficiency.",
+    "image": "https://i.ibb.co/v3XwMXN/service1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Birthing Center",
+    "title": "Having Healthy Babies",
+    "description": "Baby-centered maternity care is just that – baby centered. The nurses and doctors at the Fort HealthCare Obstetrics recognize that no one is better suited to take care of your baby than you.",
+    "image": "https://i.ibb.co/jRTckfV/service2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cardiac Services",
+    "title": "What do you know about Preventing Heart Disease?.",
+    "description": "The cardiac rehabilitation program is designed to help an individual with heart disease return to an optimal level of physical, emotional, social and vocational well-being.",
+    "image": "https://i.ibb.co/MGhky81/service3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Colonoscopy",
+    "title": "Colonoscopy is a potentially life-saving test",
+    "description": "A colonoscopy is a test that allows your doctor to look at your entire colon for signs of colorectal cancer. The test also looks for small growths called colon polyps, which can turn into cancer within 5-10 years if left untreated.",
+    "image": "https://i.ibb.co/j8bqPMd/service4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Comprehensive Care Management",
+    "title": "It is a partnership with your primary care provider and health care team",
+    "description": "The Fort HealthCare Comprehensive Care Management (CCM) program is founded on the belief that using an entire team to care for our patients we provide a more holistic and personalized approach that is customized to meet each patient’s healthcare needs.",
+    "image": "https://i.ibb.co/gdkC5H4/service5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mammography",
+    "title": "Mammograms are among the best early detection methods",
+    "description": "The National Breast Cancer Foundation estimates over 200,000 women will be diagnosed with breast cancer and over 40,000 die each year. One in eight women either currently has or will develop breast cancer in her lifetime. Approximately, 1,700 men will be diagnosed with breast cancer and 450 will die each year.",
+    "image": "https://i.ibb.co/5902VnP/service6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dr. William",
+    "image": "https://i.ibb.co/ZS9DS6F/doctor1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Arthur Reese Abright",
+    "image": "https://i.ibb.co/zrKM7KY/doctor2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Myles. B. Abbott",
+    "image": "https://i.ibb.co/pzq2fpq/doctor3.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Fouad. M. Abbas",
+    "image": "https://i.ibb.co/3h5hrhW/doctor4.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Khalid Abbed",
+    "image": "https://i.ibb.co/bdG5tjH/doctor5.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Corrie T.M Anderson",
+    "image": "https://i.ibb.co/FmfwS1K/doctor6.jpg"
+  }
+]

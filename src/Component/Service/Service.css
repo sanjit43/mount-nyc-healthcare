@@ -1,0 +1,22 @@
+.service-container{
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(210, 232, 233);
+}
+.service-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn-regular{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    width: 200px;
+    cursor: pointer;
+}
