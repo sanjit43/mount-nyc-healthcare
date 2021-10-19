@@ -7,6 +7,7 @@ import Footer from './Component/Footer/Footer';
 import Home from './Component/Home';
 import Login from './Component/Login/Login';
 import Navbar from './Component/Navbar/Navbar';
+import NotFound from './Component/NotFound/NotFound';
 import Register from './Component/Register/Register';
 import ServiceDetails from './Component/ServiceDetails/ServiceDetails';
 import Services from './Component/Services/Services';
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route path='/register'>
             <Register></Register>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
           <Footer></Footer>
         </BrowserRouter>
