@@ -9,15 +9,18 @@ const useFirebase = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
+    const [isLoading, setIsLoading] = useState(true)
     const auth = getAuth();
 
     //Google signin
     const googleSignIn = () => {
+        setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 setUser(result.user)
             })
+            .finally(() => setIsLoading(false));
     }
 
     const githubSignIn = () => {
@@ -38,14 +41,17 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
+            setIsLoading(false);
         })
         return unSubscribed;
     }, [])
 
     //Set logout
     const logOut = () => {
+        setIsLoading(true)
         signOut(auth)
             .then(() => { })
+            .finally(() => setIsLoading(false))
     }
 
     //Login with email and pass
@@ -102,7 +108,8 @@ const useFirebase = () => {
         handlePasswordChange,
         error,
         login,
-        githubSignIn
+        githubSignIn,
+        isLoading
     }
 }
 
