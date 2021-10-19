@@ -6,6 +6,7 @@ import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Home from './Component/Home';
 import Login from './Component/Login/Login';
+import PrivateRoute from './Component/Login/PrivateRoute/PrivateRoute';
 import Navbar from './Component/Navbar/Navbar';
 import NotFound from './Component/NotFound/NotFound';
 import Register from './Component/Register/Register';
@@ -34,19 +35,19 @@ function App() {
             <Route path='/contact'>
               <Contact></Contact>
             </Route>
-            <Route path='/service/:serviceID'>
+            <PrivateRoute path='/service/:serviceID'>
               <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
+            <Route path='/signin'>
+              <Login></Login>
+            </Route>
+            <Route path='/register'>
+              <Register></Register>
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
             </Route>
           </Switch>
-          <Route path='/signin'>
-            <Login></Login>
-          </Route>
-          <Route path='/register'>
-            <Register></Register>
-          </Route>
-          <Route path='*'>
-            <NotFound></NotFound>
-          </Route>
           <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
