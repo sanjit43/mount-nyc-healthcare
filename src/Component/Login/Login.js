@@ -4,7 +4,7 @@ import useAuth from '../../Hooks/UseAuth';
 import './Login.css'
 
 const Login = () => {
-    const { googleSignIn, login } = useAuth();
+    const { googleSignIn, login, githubSignIn } = useAuth();
     return (
         <div className='login-container'>
             <div>
@@ -16,7 +16,7 @@ const Login = () => {
                 <input onClick={login} className='login-btn' type="button" value="Login" />
                 <p>Don't have acount? Please <Link to='/register'>Register</Link></p>
                 <input onClick={googleSignIn} type="button" value="Login with Google" />
-                <input type="button" value="Login with GitHub" />
+                <input onClick={githubSignIn} type="button" value="Login with GitHub" />
             </div>
         </div>
     );
