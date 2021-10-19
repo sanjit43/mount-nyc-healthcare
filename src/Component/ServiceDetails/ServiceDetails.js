@@ -10,7 +10,7 @@ const ServiceDetails = () => {
         fetch('/services.json')
             .then(res => res.json())
             .then(data => {
-                const exactIteam = data.filter(td => td.id === serviceID)
+                const exactIteam = data.filter(td => td.id == serviceID)
                 setDetail(exactIteam)
             })
     }, [])
