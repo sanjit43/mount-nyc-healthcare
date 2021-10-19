@@ -19,7 +19,7 @@ const Register = () => {
                 <br />
                 <p className='error'>{error}</p>
             </form>
-            <p>Already have an account? please <Link to='/signin'>LogIn</Link></p>
+            <p>Already have an account? please <Link to='/login'>LogIn</Link></p>
         </div>
     );
 };
